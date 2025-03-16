@@ -99,9 +99,3 @@ This Python application provides a simple Book Store Management System using MyS
         -   `Address` (VARCHAR(40))
 
 ## Security Considerations
-
--   **Password Storage:** The current implementation stores passwords in plain text. In a production environment, use secure hashing algorithms (e.g., bcrypt) to store passwords.
--   **SQL Injection:** The code is vulnerable to SQL injection. Use parameterized queries or prepared statements to prevent SQL injection attacks.
--   **Error Handling:** Implement more robust error handling to gracefully handle exceptions and provide informative messages to the user.
--   **Input Validation:** Add input validation to prevent invalid data from being entered into the system.
--   **MySQL Credentials:** Never hardcode your MySQL credentials directly into your code. Use environment variables or configuration files to store sensitive information.
