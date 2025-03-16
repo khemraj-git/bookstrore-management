@@ -98,4 +98,4 @@ This Python application provides a simple Book Store Management System using MyS
         -   `PhoneNumber` (CHAR(10) UNIQUE KEY)
         -   `Address` (VARCHAR(40))
 
-## Security Considerations
+
